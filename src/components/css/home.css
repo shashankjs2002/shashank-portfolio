@@ -1,0 +1,249 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Lobster&display=swap');
+*{
+    /* font-family: 'Lobster', 'Roboto'; */
+    color: bisque;
+    
+}
+.home{
+    /* background: linear-gradient(135deg, rgba(73, 2, 135, 0.686) ,  rgb(25, 1, 30), rgba(73, 2, 135, 0.784) ); */
+    background:linear-gradient(135deg, #ff7f00 , #683400, #000000ab) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    
+}
+
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* height: 100vh; */
+    /* background: linear-gradient(135deg, rgb(59 80 4 / 55%) , rgb(22 2 2 / 54%), rgba(73, 2, 135,-4.8) ); */
+    background-attachment: fixed;
+}
+.home .name {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    font-family: 'Lobster', 'Roboto';
+    align-items: center;
+}
+
+.home .name .hi{
+    /* display: flex; */
+    text-align: left;
+    /* justify-content: center; */
+}
+
+.fotu{
+    width: 210px;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+
+
+    justify-content: center;
+    display: flex;
+    /* height: max-content; */
+    height: 291px;
+    align-self: end;
+    background: url('../assets/fotu2.png');
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fotu img {
+    z-index: -1;
+    width: 175px;
+    position: fixed;
+    bottom: 0;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    /* background: linear-gradient(135deg, rgb(59 80 4 / 55%) , rgb(22 2 2 / 54%), rgba(73, 2, 135,-4.8) ); */
+    background-attachment: fixed;
+    /* background: url('../assets/portfolio_bg.png') no-repeat center; */
+}
+/* .right{
+
+} */
+
+/* Navbar */
+.fa-solid, .fas {
+    font-weight: 900;
+    display: block;
+    margin: 20px 0px;
+}
+
+.menu{
+    /* background: firebrick; */
+    background: rgb(167, 2, 57);
+    width: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    position: fixed;
+    top: 56px;
+}
+
+.menu ul {
+    padding: 10px
+}
+
+.menu ul i {
+    cursor: pointer;
+    
+}
+.menu ul i:hover {
+    cursor: pointer;
+   
+}
+
+.bottom {
+    /* background: linear-gradient(135deg, rgba(73, 2, 135, 0.686) , rgb(25, 1, 30), rgba(73, 2, 135) ); */
+    background: linear-gradient(135deg, rgb(30 3 46) , rgb(159 101 101), rgba(73, 2, 135) );    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* height: 100vh; */
+}
+
+
+.card{
+    padding-top: 25px;
+    align-items: center;
+    border-radius: 25px;
+    font-family: 'Archivo Narrow', 'sans-serif';
+    position: relative;
+
+    width:18rem;
+
+}
+
+.card-img, .card-img-top {
+    width: 10rem;
+
+}
+.skills {
+    padding: 1vw 10vw;
+}
+
+.skillDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillName{
+    margin: 10px 0;
+}
+
+.line {
+    height: 5px;
+    background: blanchedalmond;
+    position: relative;
+}
+
+.line::before{
+    background: blueviolet;
+    content: "";
+    width: 90%;
+    position: absolute;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 80px;
+      /* -webkit-appearance: none; */
+      background-color: #9a905d;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      /* cursor: none; */
+      background: #434343;
+      box-shadow: -80px 0 0 80px #214c51;
+    }
+}
+
+/* ul .skillName div{
+        width: 100px;
+        display: inline-block;  
+} */
+
+.btn-danger{
+    position: absolute;
+    bottom: 15px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+}
+.card p{
+    padding-bottom: 30px;
+}
+.contact {
+    padding: 1vw 10vw;
+}
+
+.footer{
+    text-align: center;
+    background: linear-gradient(45deg, black, #740408);
+}
+
+.footer span{
+    color: crimson;
+    font-weight: bolder;
+}
+
+/* .btn{
+    background: crimson;
+    border-color: red;
+}
+
+
+
+.btn:hover{
+    background-color: red;
+} */
+
+
+@media screen and (max-width: 770px) {
+    .project{
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .card{
+       /* margin-left: 90px; */
+       width: 12rem;
+    }
+  }
+
+
+  ins{
+    width: 260px;
+  }
